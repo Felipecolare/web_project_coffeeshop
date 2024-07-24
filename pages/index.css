@@ -4,8 +4,8 @@
   margin: 0 auto;
   font-size: 16px;
   height: 20px;
-  font-family: Arial, sans-serif;
   line-height: 20px;
+  font-family: "Inter", "Arial", sans-serif;
 }
 
 .header {
@@ -63,7 +63,6 @@
   line-height: 30px;
   max-width: 515px;
   margin: 32px 0 0;
-
 }
 
 .header__image {
@@ -94,5 +93,6 @@
 .footer__list {
   color: #838383;
 }
+
 
 
