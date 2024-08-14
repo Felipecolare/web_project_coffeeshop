@@ -248,6 +248,10 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  margin-top: auto;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-bottom: auto;
 }
 .reservation__form {
   max-width: 385px;
