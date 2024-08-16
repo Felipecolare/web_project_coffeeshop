@@ -1,71 +1,73 @@
 .form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 32px;
-    border: 0;
-    width: 100%;
+    max-width: 385px;
+    margin-bottom: 120px;
   }
-  .form__fieldset {
-    border: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-    width: 100%;
+  
+  .form__container {
+    border: none;
+    text-align: left;
   }
+  
   .form__label {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
   }
+  
+  .form__label-text {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  
   .form__input {
-    border-radius: 4px;
-    border: 1px solid #838383;
-    width: 100%;
-    height: 60px;
-    padding-inline: 16px;
-  }
-  .form__input::placeholder {
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
     color: #838383;
-  }
-  .form__button {
-    color: #fff;
-    background-color: #2f80ed;
-    border: 0;
     border-radius: 4px;
-    transition: opacity 0.3s ease;
     height: 60px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 32px;
+    padding: 15px 20px;
+  }
+  
+  .form__button {
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 385px;
+    border-radius: 4px;
+    background-color: #2f80ed;
+    color: #ffffff;
+    cursor: pointer;
+    height: 60px;
+    box-sizing: border-box;
     width: 100%;
   }
-  .form__button:focus {
+  
+  .form__button:hover {
     opacity: 0.7;
-    outline: 0;
   }
   
-  .form__label_type_checkbox {
-    flex-direction: row;
+  .form__label-checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
   }
   
-  .form__input-mod {
-    width: 20px;
-    height: 20px;
-    border: 1px solid #838383;
-    background-color: #fff;
+  .form__input[type="checkbox"] {
     border-radius: 2px;
-  }
-  
-  .form__input_type_checkbox:checked + .form__input-mod_type_checkbox {
-    background-color: #2f80ed;
-    background-image: url("../images/check.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: auto;
-  }
-  
-  .form__input_type_checkbox {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
+    height: 20px;
+    width: 20px;
+    margin-top: 32px;
+    padding-right: 12px;
   }
