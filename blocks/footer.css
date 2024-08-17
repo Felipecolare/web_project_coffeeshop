@@ -72,9 +72,16 @@
   }
   
   .footer__social-link {
-    text-decoration: none;
-    color: #c1c1c1;
-  }
+    text-decoration: none; 
+    color: #ffffff;
+  
+    }
+
+    .footer__social-link:hover,
+    .footer__social-link:focus {
+      color: #c1c1c1; 
+    }
+     
   
   .footer__copyright {
     font-family: "Inter", Arial, sans-serif;
